@@ -1,0 +1,83 @@
+*{
+   margin:0px;
+   padding:0px;
+   box-sizing: border-box;
+
+}
+#nav{
+    background-color: #9ee41b;
+    
+    
+}
+body {
+/*  padding: 25px;*/
+  background-color: white;
+  color: black;
+/*  font-size: 25px;*/
+
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+
+}
+
+
+
+
+
+
+
+.active-pink-2 input.form-control[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #f48fb1;
+  box-shadow: 0 1px 0 0 #f48fb1;
+}
+.active-pink input.form-control[type=text] {
+  border-bottom: 1px solid #f48fb1;
+  box-shadow: 0 1px 0 0 #f48fb1;
+}
+.active-purple-2 input.form-control[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #ce93d8;
+  box-shadow: 0 1px 0 0 #ce93d8;
+}
+.active-purple input.form-control[type=text] {
+  border-bottom: 1px solid #ce93d8;
+  box-shadow: 0 1px 0 0 #ce93d8;
+}
+.active-cyan-2 input.form-control[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #4dd0e1;
+  box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.active-cyan input.form-control[type=text] {
+  border-bottom: 1px solid #4dd0e1;
+  box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.active-cyan .fa, .active-cyan-2 .fa {
+  color: #4dd0e1;
+}
+.active-purple .fa, .active-purple-2 .fa {
+  color: #ce93d8;
+}
+.active-pink .fa, .active-pink-2 .fa {
+  color: #f48fb1;
+}
+
+
+
+
+.glow{
+  animation:glow 1s ease-in-out infinite alternate ;
+
+}
+
+
+@keyframes glow{
+  from{
+    text-shadow: 0 0 10px #fff,0 0 20px #fff, 0 0 30px #60073,0 0 40px #60073,0 0 50px #60073,0 0 60px #60073,0 0 70px #60073;
+  }
+  to{
+
+    text-shadow: 0 0 20px #fff,0 0 30px #ff4da6,0 0 40px #ff4da6,0 0 50px #ff4da6,0 0 60px #ff4da6,0 0 70px #ff4da6,0 0 80px #ff4da6;
+  }
+}
